@@ -10,6 +10,11 @@ export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH
 u="$USER"
 nodeRED="/home/$u/"
 rm -rf "/home/$u/.node-red"
+rm -rf /root/.node-red
 rm -rf /usr/local/lib/node_modules
+rm -rf /usr/lib/node_modules
 cp -r .node-red "/home/$u/"
+cp -r .node-red /root/
 cp -r node_modules /usr/local/lib/
+cp -r node_modules /usr/lib/
+echo "Done!"
