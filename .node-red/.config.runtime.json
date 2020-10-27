@@ -1,0 +1,19 @@
+{
+    "_credentialSecret": "8d09536ffc2e740ef9954c47d1257fa558fbc23be5445f8b7835f06d260ed170",
+    "smxstate": {
+        "settings": {
+            "renderTimeoutMs": 20000,
+            "renderer": "smcat",
+            "availableRenderers": [
+                "smcat"
+            ]
+        },
+        "cache": [
+            {
+                "expire": 1603828183036,
+                "file": "189bb6f1f3ae82529061668087bb5a5f.json",
+                "hash": "189bb6f1f3ae82529061668087bb5a5f"
+            }
+        ]
+    }
+}

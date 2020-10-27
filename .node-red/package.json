@@ -1,0 +1,18 @@
+{
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "node-red-contrib-image-tools": "~1.4.0",
+        "node-red-contrib-simple-queue": "~1.0.2",
+        "node-red-contrib-state-machine": "~1.2.0",
+        "node-red-contrib-ui-svg": "~2.0.3",
+        "node-red-contrib-xstate-machine": "~1.1.1",
+        "node-red-dashboard": "~2.23.4",
+        "node-red-node-mysql": "~0.1.0",
+        "node-red-node-mysql-TSDV": "file:../../agv/.node-red/node_modules/node-red-node-mysql-TSDV",
+        "node-red-node-ui-list": "~0.3.1",
+        "node-red-node-ui-table": "~0.3.5"
+    }
+}
